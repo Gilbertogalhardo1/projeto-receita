@@ -88,15 +88,23 @@ main {
 }
 
 main h1 {
-  color: var(--cor1);
-  margin: 15px 0px;
+  color: var(--cor4);
+  margin: 10px 0px 50px 0px;
   text-align: center;
+  padding-bottom: 5px;
+  font-family: var(--fontetitulos);
+  font-size: 3em;
+}
+
+main h2 {
+  color: var(--cor1);
+  margin: 20px 0px;
   padding-bottom: 5px;
   font-family: var(--fontetitulos);
   font-size: 2.5em;
 }
 
-main h2 {
+main h3 {
   color: var(--cor1);
   margin: 15px 0px;
   font-family: var(--fontetitulos);
@@ -122,13 +130,13 @@ main img {
 main ul {
   padding: 10px;
   font-family: var(--fonteparagrafo);
-  font-size: 1.5em;
+  font-size: 1.4em;
   line-height: 2em;
 }
 
 main ol {
   padding: 10px;
   font-family: var(--fonteparagrafo);
-  font-size: 1.5em;
+  font-size: 1.4em;
   line-height: 2em;
 }
